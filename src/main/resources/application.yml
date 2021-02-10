@@ -1,0 +1,12 @@
+http:
+  maxTotal: 200
+  defaultMaxPerRoute: 50
+  connectTimeout: 3000
+  connectionRequestTimeout: 100
+  socketTimeout: 20000
+
+spring:
+  activemq:
+    password: guest
+    username: guest
+    host: 192.168.8.131
